@@ -1,0 +1,11 @@
+{
+    "nome": "Kleber",
+    "email": "keblerbambam@comercial.com",
+    "telefone": ["321312231", "857823747"],
+    "endereco": {
+        "rua": "R. Joseph Climber",
+        "numero": 202,
+        "apartamento": true,
+        "complemento": "ap 203"
+    }
+}
