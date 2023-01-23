@@ -20,3 +20,18 @@ const chaves = ["nome", "idade", "cpf", "email", "altura"];
 chaves.forEach((chave) => {
     console.log(`A chave ${chave} tem o valor ${cliente[chave]}`) // acessar com o "." não funcionaria
 });
+
+// com a notação de colchetes podemos acessar uma propriedade através de uma variável
+const pessoa = {
+    nome: "Johnny",
+    idade: "22",
+    apelido: "John"
+}
+
+const acessaApelido = "apelido" // criando uma variável e colocando o nome da chave em string
+console.log(pessoa[acessaApelido]) // acessando a propriedade apelido por meio da variável acessaApelido
+
+
+// bonus: usando destruction para acessar dados
+const { nome : nomeDele, email : emailDele} = cliente
+console.log(nomeDele, emailDele)
